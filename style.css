@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    
+
+}
+div:not(.container){
+    align-items: center;
+}
+.ok{
+    height: 50px;
+    border: solid 1px black ;
+    padding : 0
+    
+
+
+    
+}
+.ok2{
+    height: 300px;
+    border: solid 1px black;
+    padding: 0;
+}
+input{
+    width: 100%;
+
+}
+button{
+    width: 100%;
+}
+
+.col-10{
+    padding:0
+}
+.col-2{
+    padding: 0;
+}
