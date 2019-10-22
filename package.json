@@ -1,0 +1,27 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fquraish/kanban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fquraish/kanban/issues"
+  },
+  "homepage": "https://github.com/fquraish/kanban#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-countdown-timer-control": "^1.0.3",
+    "jquery-simple-timer": "^1.0.2",
+    "jquery-sortablejs": "^1.0.1",
+    "jquery-ui": "^1.12.1",
+    "sortablejs": "^1.10.1"
+  }
+}
