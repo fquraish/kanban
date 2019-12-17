@@ -4,42 +4,30 @@ $(document).ready(function () {
     $('button').click(function () {
         if ($('input').val() != "") {
             var li = $('<li></li>')
-            
             $('ol').append(li)
             li.html($('#taskname').val())
             var deleteLi = $("<span>   X</span>")
             li.append(deleteLi)
-            $(deleteLi).click(function(){
+            $(deleteLi).click(function () {
                 li.remove()
             })
-            
-            
+            $('input').val("")
         }
-           $('input').val("")
-        
-
     })
-
 
     $('#items').sortable();
 
-    $(function(){
-       
-     
+    $(function () {
         //with control
-        var timer1=$('.timer1').startTimer({
-            onComplete: function(element){console.log('Complete');}
-            ,onPause: $('.timerpause'),
+        var timer1 = $('.timer1').startTimer({
+            onPause: $('.timerpause'),
             onReset: $('.timerreset'),
             onStart: $('.timerstart'),
-            onComplete: function(element){
+            onComplete: function () {
                 var li = $('li')
                 $('#taskdone').append(li.first());
-              }
+            }
         });
-        
-       
     })
-
 })
 
